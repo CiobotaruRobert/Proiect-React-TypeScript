@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #e0eafc;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  button{
+    font-size: large;
+    color: #33b249;
+    font-weight: 900;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px 8px;
+  }
+  
+  #butonLoginPage{
+    margin:auto;
+    margin-left:600px;
+    margin-right:20px;
+    margin-top:50px;
+  }
+
+  #butonRegisterPage{
+    margin:auto;
+  }
+
+  #root {
+    height: 100vh;
+    background: #e0eafc;
+    overflow-y: hidden;
+  }
+  
+  #toast-container-main {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    z-index: 9999999;
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+  
+  #toast-container-main > div {
+    background-color: rgba(19, 17, 17, 0.15);
+    color: white;
+    width: 100%;
+    margin-bottom: 10px;
+    min-height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 12px;
+    animation: slide-in 0.2s;
+    transition: all 0.3s ease;
+  }
+  
+  .toast-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  @keyframes slide-in {
+    from {
+      transform: translateX(30px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0px);
+      opacity: 1;
+    }
+  }
+  
+  #destroyToastButton {
+    background: none;
+    border: none;
+    color: #23cb5b;
+    font-weight: 900;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    padding: 4px 8px;
+  }
+  
+  #destroyToastButton:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  #goBackButton{
+    margin-left: 80px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+
+  
