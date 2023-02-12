@@ -19,7 +19,7 @@ function App() {
               <Route exact path="/login" component={LoginPage} />
               <Route exact path="/dynamic-form" component={DynamicFormPage} />
               <PrivateRoute exact path="/">
-                <Redirect to={{ pathname: '/userslist' }} />
+                <Redirect to={{ pathname: '/home' }} />
               </PrivateRoute>
               <PrivateRoute path="/userslist" component={UsersListPage} />
             </Switch>
