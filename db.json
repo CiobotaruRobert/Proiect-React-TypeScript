@@ -1,0 +1,120 @@
+{
+  "users":
+[
+  {
+    "id": 1,
+    "name": "George Marius",
+    "username": "George",
+    "email": "g.alex@yahoo.com",
+    "address": {
+      "street": "Nicolae Balcescu",
+      "suite": "56",
+      "city": "Bucuresti",
+      "zipcode": "1637",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "0732826547",
+    "website": "asgdfhfd.org",
+    "company": {
+      "name": "Companie1",
+      "catchPhrase": "a",
+      "bs": "a"
+    }
+  },
+  {
+    "id": 2,
+    "name": "Elena Petrescu",
+    "username": "pElena",
+    "email": "p.elena@gmail.com",
+    "address": {
+      "street": "strada 2",
+      "suite": "6",
+      "city": "oras 2",
+      "zipcode": "474265",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "92057942857",
+    "website": "site.com",
+    "company": {
+      "name": "companie 2",
+      "catchPhrase": "b",
+      "bs": "b"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Georgiana Ilie",
+    "username": "ig2zzcb",
+    "email": "ig@outlook.biz",
+    "address": {
+      "street": "strada custom",
+      "suite": "ap 8",
+      "city": "oras 3",
+      "zipcode": "8568446",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "03839672465",
+    "website": "site3.org",
+    "company": {
+      "name": "companie 3",
+      "catchPhrase": "c",
+      "bs": "d"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Leanne Graham",
+    "username": "Bret1535",
+    "email": "hhf@gmail.com",
+    "address": {
+      "street": "strada 4",
+      "suite": "226",
+      "city": "Oras 4",
+      "zipcode": "4564275",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "0295827954",
+    "website": "site4.org",
+    "company": {
+      "name": "companie 4",
+      "catchPhrase": "a",
+      "bs": "b"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Ionut Petre",
+    "username": "ipetre",
+    "email": "petrei@yahoo.ro",
+    "address": {
+      "street": "strada 5",
+      "suite": "Ap. 56",
+      "city": "oras 5",
+      "zipcode": "3453637",
+      "geo": {
+        "lat": "-37.3159",
+        "lng": "81.1496"
+      }
+    },
+    "phone": "0292757425",
+    "website": "site5.org",
+    "company": {
+      "name": "companie 5",
+      "catchPhrase": "c",
+      "bs": "d"
+    }
+  }
+]
+}
