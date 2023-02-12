@@ -21,7 +21,7 @@ function App() {
               <PrivateRoute exact path="/">
                 <Redirect to={{ pathname: '/v1' }} />
               </PrivateRoute>
-              <PrivateRoute path="/v1" component={UsersListPage} />
+              <PrivateRoute path="/userslist" component={UsersListPage} />
             </Switch>
           </Router>
   );
