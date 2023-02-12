@@ -17,7 +17,6 @@ function App() {
               <Route exact path="/formpage" component={RegisterForm} />
               <Route exact path="/home" component={HomePage} />
               <Route exact path="/login" component={LoginPage} />
-              <Route exact path="/dynamic-form" component={DynamicFormPage} />
               <Route exact path="/">
                 <Redirect to={{ pathname: '/home' }} />
               </Route>
