@@ -48,7 +48,7 @@ export const authenticateUser = (userData: any) => async (dispatch: any) => {
       content: "Enjoy your browsing experience",
       duration: 10000,
     });
-    history.push('/v1');
+    history.push('/userslist');
   } catch (err) {
     dispatch(error("error"));
   }
