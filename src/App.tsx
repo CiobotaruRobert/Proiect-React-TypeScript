@@ -18,9 +18,9 @@ function App() {
               <Route exact path="/home" component={HomePage} />
               <Route exact path="/login" component={LoginPage} />
               <Route exact path="/dynamic-form" component={DynamicFormPage} />
-              <PrivateRoute exact path="/">
+              <Route exact path="/">
                 <Redirect to={{ pathname: '/home' }} />
-              </PrivateRoute>
+              </Route>
               <PrivateRoute path="/userslist" component={UsersListPage} />
             </Switch>
           </Router>
